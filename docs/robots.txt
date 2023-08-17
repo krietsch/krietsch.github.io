@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://github.com/krietsch.github.io/sitemap.xml
+Sitemap: https://krietsch.github.io/sitemap.xml
