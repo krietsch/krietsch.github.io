@@ -1,27 +1,11 @@
 ---
-date: "2022-10-24"
+date: "2023-08-17"
 sections:
 - block: about.biography
   content:
     title: Biography
     username: admin
   id: about
-- block: features
-  content:
-    items:
-    - description: 90%
-      icon: r-project
-      icon_pack: fab
-      name: R
-    - description: 100%
-      icon: chart-line
-      icon_pack: fas
-      name: Statistics
-    - description: 10%
-      icon: camera-retro
-      icon_pack: fas
-      name: Photography
-    title: Skills
 - block: experience
   content:
     date_format: Jan 2006
@@ -173,10 +157,10 @@ sections:
 - block: contact
   content:
     address:
-      city: Seewiesen
+      city: 82319 Seewiesen
       country: Germany
-      country_code: US
-      postcode: "82319"
+      country_code: DE
+      postcode: Germany
       region: 
       street: Eberhard-Gwinner-Str. 7
     email: j.krietsch@orn.mpg.de
@@ -189,6 +173,9 @@ sections:
     subtitle: null
     text: Send me an email.
     title: Contact
+    coordinates:
+        latitude: '47.970431'
+        longitude: '11.235735'
   design:
     columns: "2"
   id: contact

@@ -100,8 +100,6 @@
         
       
         
-      
-        
           
           
         
@@ -123,6 +121,8 @@
 
     
     
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -353,7 +353,7 @@
 <meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://krietsch.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2023-08-17T00:00:00&#43;00:00" />
   
 
 
@@ -586,43 +586,6 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
             <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
           </li>
 
@@ -660,7 +623,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
+            <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
           </li>
 
           
@@ -697,7 +660,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+            <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
           </li>
 
           
@@ -1045,6 +1008,23 @@
         
         
         
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.youtube.com/channel/UCF8QeOjYeZBLJl2S1E6Wayw" target="_blank" rel="noopener" aria-label="youtube">
+            <i class="fab fa-youtube big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
         
         
         
@@ -1134,143 +1114,6 @@
 
     </div>
   </div>
-</div>
-
-
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="section-features" class="home-section wg-features  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-
-    
-
-
-
-
-
-
-
-<div class="row featurette">
-  
-  <div class="col-md-12 section-heading">
-    <h1>Skills</h1>
-    
-  </div>
-  
-
-  
-
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fab fa-r-project"></i></div>
-    
-    <div class="section-subheading">R</div>
-    <p>90%</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
-    
-    <div class="section-subheading">Statistics</div>
-    <p>100%</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-camera-retro"></i></div>
-    
-    <div class="section-subheading">Photography</div>
-    <p>10%</p>
-  </div>
-  
 </div>
 
 
@@ -4125,7 +3968,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
       
       <li>
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address">Eberhard-Gwinner-Str. 7, Seewiesen, 82319</span>
+        <span id="person-address">Eberhard-Gwinner-Str. 7, 82319 Seewiesen, Germany</span>
       </li>
     
 
@@ -4140,6 +3983,16 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
   </ul>
 
+  
+  <div class="d-none">
+    <input id="map-provider" value="mapnik">
+    <input id="map-lat" value="47.970431">
+    <input id="map-lng" value="11.235735">
+    <input id="map-dir" value="Eberhard-Gwinner-Str. 7, 82319 Seewiesen, Germany">
+    <input id="map-zoom" value="13">
+    <input id="map-api-key" value="">
+  </div>
+  <div id="map"></div>
   
 
 </div>
@@ -4275,6 +4128,8 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
 
 
 
@@ -4354,6 +4209,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
 
 
 

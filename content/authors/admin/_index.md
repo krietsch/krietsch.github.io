@@ -41,6 +41,9 @@ social:
 - icon: orcid
   icon_pack: ai
   link: http://orcid.org/0000-0002-8080-1734
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/channel/UCF8QeOjYeZBLJl2S1E6Wayw
 - icon: cv
   icon_pack: ai
   link: uploads/resume.pdf
