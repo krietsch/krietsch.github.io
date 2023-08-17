@@ -1,56 +1,54 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: This website is under construction. 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Dr. rer. nat. (still to defend)
+    institution: Max Planck Institute for Ornithology
+    year:
+  - course: M.Sc. Evolution, Ecology and Systematics
+    institution: Friedrich Schiller University
+    year: 
+  - course: B.Sc. Biology
+    institution: Friedrich Schiller University
+    year: 
 email: ""
-first_name: Alice
+first_name: Johannes
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-last_name: Wu
+- Behavioural and Movement Ecology
+- Ornithology
+- Evolutionary Biology
+last_name: Krietsch
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Max Planck Institute for Biological Intelligence
+  url: https://www.bi.mpg.de/en
+role: Doctoral Student
 social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
 - display:
     header: true
-  icon: twitter
-  icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.de/citations?user=1VDhHe0AAAAJ&hl=de&oi=ao
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://github.com/krietsch
+- icon: osf
+  icon_pack: ai
+  link: https://osf.io/jurmg
+- icon: orcid
+  icon_pack: ai
+  link: http://orcid.org/0000-0002-8080-1734
 - icon: cv
   icon_pack: ai
   link: uploads/resume.pdf
 status:
-  icon: ☕️
+  icon:
 superuser: true
-title: Alice Wu 吳恩達
+title: Johannes Krietsch
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Website under construction. Add bio here. 
 {style="text-align: justify;"}
